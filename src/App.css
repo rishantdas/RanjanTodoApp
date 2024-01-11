@@ -1,0 +1,36 @@
+.container{
+  background:linear-gradient(0deg,white,rgb(0, 251, 255),white);
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  margin: 20px;
+} 
+.heading{
+  text-align: center;
+  font-size: 70px;
+}
+.take{
+  display: flex;
+  gap: 50px;
+  justify-content: space-between; 
+}
+input{
+  width: 500px;
+}
+.taskItems{
+  min-height: 2em;  
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+} 
+.emptyWala{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+span{
+  padding: 10px;
+  background-color: lightblue;
+  width: 200px;
+
+}
